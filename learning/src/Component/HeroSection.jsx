@@ -1,6 +1,8 @@
 import React from 'react'
-import logo from '../images/hire.png'
-
+// import logo from '../images/aa.jpg'
+import hire from '../images/hiring.png'
+import lady from '../images/lady.webp'
+import shake from '../images/shake.webp'
 function HeroSection() {
     return (
       <div className="bg-white py-16">
@@ -9,23 +11,23 @@ function HeroSection() {
         <div className="relative flex items-start gap-x-4">
           {/* Left Image */}
           <img
-            src={logo}
+            src={lady}
             alt="Left Image"
             className="w-64 h-80 object-cover rounded-lg shadow-md "
           />
 
           {/* Right Image (Handshake) */}
           <img
-            src={logo}
+            src={shake}
             alt="Bottom Image"
             className="w-60 h-70 object-cover rounded-lg shadow-md gap-16 mt-55"
           />
 
           {/* Megaphone Icon */}
           <img
-            src={logo}
+            src={hire}
             alt="Megaphone Icon"
-            className="absolute -bottom-10 -left-10 w-16 h-16"
+            className="absolute -bottom-10 -left-10 w-30 h-35"
           />
         </div>
 

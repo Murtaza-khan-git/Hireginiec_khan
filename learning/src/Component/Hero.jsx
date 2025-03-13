@@ -3,8 +3,8 @@ import logo from '../images/home.png'
 function Hero() {
     return (
         <>
-      <div className="relative bg-gray-50">
-      <div className="container mx-auto  flex flex-col-reverse md:flex-row items-center justify-between mb-0 ">
+      <div className="relative bg-gray-50 h-150">
+      <div className="container mx-auto  flex flex-col-reverse md:flex-row items-center justify-between mb-0 h-150 ">
         {/* Left Side */}
         <div className="text-center md:text-left max-w-2xl px- md:px-15 lg:px-25 py-12 md:py-20">
           <h1 className="text-6xl sm:text-5xl md:text-6xl font-bold text-gray-900 leading-tight">
@@ -23,11 +23,11 @@ function Hero() {
         </div>
 
         {/* Right Side (Image) */}
-        <div className="mt-8 md:mt-0 w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl px-2 mb-0">
+        <div className="mt-8 md:mt-0  max-w-sm sm:max-w-md md:max-w-lg lg:max-w-7xl px-2 mb-0 ">
           <img
             src={logo}
             alt="Team"
-            className="w-full h-auto object-cover"
+            className="w-full object-cover h-auto px-0"
           />
         </div>
       </div>

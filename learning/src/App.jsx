@@ -13,11 +13,14 @@ import Hero from './Component/hero'
 import JobCards from './Component/JobCards'
 
 
+
+
 function App() {
 
 
   return (
     <>
+    
     <Header/>
     <Hero/>
     <Section/>

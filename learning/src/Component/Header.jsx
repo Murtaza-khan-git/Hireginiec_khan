@@ -4,19 +4,19 @@ import logo from '../images/hire.png'
 function Header() {
     return (
         <>
-        <header className="w-full bg-white shadow-md">
+        <header className="w-full h-25 bg-white shadow-md position: sticky  z-index top-0 z-50">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center space-x-2">
-          <img src={logo} alt="Logo" className="h-10" />
-          <span className="text-2xl font-bold text-gray-800">HIRGINIE</span>
+          <img src={logo} alt="Logo" className="h-20" />
+          <span className="text-4xl font-bold text-gray-800">HIRGINIE</span>
         </div>
 
         {/* Navigation */}
-        <nav className="hidden md:flex space-x-8">
+        <nav className="hidden md:flex space-x-8 text-2xl">
           <a href="#" className="text-blue-600 font-semibold">Home</a>
           <a href="#" className="text-gray-800 hover:text-blue-600 transition">About Us</a>
-          <a href="#" className="text-gray-800 hover:text-blue-600 transition">Services</a>
+          <a href="#" className="text-gray-800 hover:text-blue-600 transition">D & I Impact</a>
           <a href="#" className="text-gray-800 hover:text-blue-600 transition">Resources</a>
           <a href="#" className="text-gray-800 hover:text-blue-600 transition">Jobs</a>
         </nav>

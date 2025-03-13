@@ -101,11 +101,11 @@ function Section() {
             HIRE TALENTS
           </h2>
           <p className="text-gray-600 mb-4">
-            Find talents as unique as your business needs. Join our league of 1200+ businesses who’ve streamlined their hiring process and accelerated growth.
+          We know how difficult the job market can truly be. That's where Hireginie eases the hiring pressure off the corporate’s organisations, letting them focus on their business scale up strategies. Hireginie is a tech enabled talent marketplace that connects all the spokes of the talent ecosystem through an impeccable blending of technology and human enterprise, addressing gaps of the current talent acquisition space across the industries and the geographies.
           </p>
-          <p className="text-gray-600 mb-8">
+          {/* <p className="text-gray-600 mb-8">
             Discover a world of possibilities with Zyoin Group.
-          </p>
+          </p> */}
           <button className="border-2 border-blue-500 text-blue-500 px-8 py-3 rounded-lg shadow-sm font-semibold hover:bg-blue-50 transition duration-300">
             CONNECT WITH US
           </button>
